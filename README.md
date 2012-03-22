@@ -10,4 +10,14 @@ to see the result. In Phant you can do:
 
     > 4 + 4
 
-You can use Phant to debug tiny pieces of code.
+You can use Phant to debug tiny pieces of code. Note that you can write
+multi-line statements and step through code with phant;
+
+To start Phant, run:
+
+    php phant.php
+    
+    php phant.php -c
+    
+The -c will run phant in colorized mode. You may also want to add this to your
+path so that it can be run with a simpler command.
